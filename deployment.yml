@@ -6,13 +6,13 @@ spec:
   selector:
     matchlabels:
       app: swiggy
-    template:
-      metadata:
-        labels:
-          app: swiggy
-      spec:
-        containers:
-          - name: cont-1
-            image: irfan7781/cycle
-            ports:
-              - containerPort: 80  
+  template:
+    metadata:
+      labels:
+      app: swiggy
+    spec:
+      containers:
+        - name: cont-1
+          image: irfan7781/cycle
+          ports:
+            - containerPort: 80  
