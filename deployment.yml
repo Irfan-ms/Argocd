@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: irfan7781/dm
+          image: irfan7781/cycle
           ports:
             - containerPort: 80
